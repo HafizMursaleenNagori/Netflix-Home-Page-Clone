@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+div.home {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/ca77f965-b83c-4616-93a3-a2f8fabb378c/PK-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    position: relative;
+    right: 10px;
+    height: 600px;
+    width: 101.4%;
+    bottom: 15px;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+div.main {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+img{
+    color: red;
+    letter-spacing: 2px;
+    margin: 15px 130px;
+    font-size: 40px;
+}
+button.in{
+    float: right;
+    margin: 40px 155px;
+    padding: 8px 16px;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+div.cnt{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+h1.un{
+    width: 700px;
+    margin-left: 280px;
+    font-size: 52px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -3px;
+}
+h3{
+    position: relative;
+    bottom: 10px;
+}
+input{
+    border: 0.5px solid rgb(196, 179, 179);
+    height: 35px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgba(27, 27, 27, 0.804);
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: content-box;
+}
+button.gs{
+    font-size: x-large;
+    font-weight: bold;
+    height: 57px;
+    width: 200px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    position: relative;
+    top: 4px;
+}
+::-webkit-input-placeholder{
+    color: rgb(156, 149, 149);
+    font-weight: bold;
+    font-size: medium;
+    padding: 7px;
+}
+button:hover{
+    background-color: rgb(193, 10, 10);
+    cursor: pointer;
+}
+div.style{
+    width: 90%;
+    height: 150px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    border: 1px solid transparent;
+    border-top: 5px solid rgb(255, 0, 43);
+    border-top-left-radius: 50% 30%;
+    border-top-right-radius: 50% 30%;
+    position: relative;
+    top: 580px;
+    left: 80px;
+}
+div.cards{
+    position: relative;
+    top: 520px;
+}
+div.cards h2{
+    margin-left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+div.allcards{
+    display: flex;
+    width: 80%;
+    position: relative;
+    left: 130px;
+}
+div.card1, .card2, .card3, .card4{
+   height: 340px;
+   width: 240px;
+   background: linear-gradient(to bottom right, rgb(4, 4, 88), rgb(81, 4, 4));
+   border-radius: 10px;
+   margin-left: 20px;
+}
+div.allcards h1{
+    position: relative;
+    right: -20px;
+    top: 20px;
+    width: 170px;
+    line-height: 42px;
+}
+div.card2 h1, div.card3 h1{
+    width: 200px;
+}
+div.allcards i{
+    font-size: xx-large;
+}
+div.card1 i, div.card2 i{
+    position: relative;
+    left: 160px;
+    top: 110px;
+}
+div.card1 span{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+div.card3 i{
+    position: relative;
+    left: 170px;
+    top: 150px;
+}
+div.card4 i{
+    position: relative;
+    left: 160px;
+    top: 25px;
+}
+div.faq{
+    position: relative;
+    top: 580px;
+    left: 150px;
+    width: 80%;
+}
+div.faq li{
+    background-color: rgb(46, 46, 46);
+    font-size: x-large;
+    padding: 30px 30px;
+    margin-top: 10px;
+    width: 80%;
+}
+div.faq ul{
+    position: relative;
+    right: 40px;
+}
+div.faq button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 40px;
+}
+
+.q1 button{
+    position: relative;
+    left: 500px;
+}
+.q2 button{
+    position: relative;
+    left: 358px;
+}
+.q3 button{
+    position: relative;
+    left: 458px;
+}
+.q4 button{
+    position: relative;
+    left: 486px;
+}
+.q5 button{
+    position: relative;
+    left: 368px;
+}
+.q6 button{
+    position: relative;
+    left: 422px;
+}
+button{
+    color: white;
+}
+div.faq li:hover{
+    background-color: rgb(68, 66, 66);
+    cursor: pointer;
+}
+div.rtw{
+    position: relative;
+    top: 630px;
+    left: 150px;
+    width: 80%;
+    height: 600px;
+}
+div.rtw input{
+    width: 72%;
+}
+a{
+    color: rgb(189, 180, 180);
+}
+div.rtw a{
+    margin-left: 30px;
+}
+div.list{
+    margin-left: -40px;
+    font-size: 15px;
+}
+div.end{
+    margin-left: 30px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: medium;
+}
